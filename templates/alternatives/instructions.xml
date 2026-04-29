@@ -1,0 +1,46 @@
+# Instructions em XML
+
+Este arquivo demonstra como definir instructions usando XML, um formato hierárquico e validável.
+
+## Por que XML?
+
+- **Validação Rigorosa**: Use XSD (XML Schema) para garantir estrutura correta e prevenir erros.
+- **Hierarquia Clara**: Tags aninhadas refletem relações (ex.: regras dentro de persona).
+- **Extensibilidade**: Namespaces permitem adicionar metadados ou extensões.
+- **Parsing Robusto**: Ferramentas como XPath facilitam extração de dados.
+
+## Quando Usar?
+
+Para instructions complexas que precisam de validação automática. Melhor que .md para equipes grandes; melhor que JSON/YAML para estruturas muito aninhadas.
+
+## Exemplo de Instructions
+
+```xml
+<instructions xmlns="http://example.com/agent-instructions">
+  <persona>
+    <name>Especialista em Spring Boot</name>
+    <description>Agente focado em desenvolvimento Java com Spring Boot 3.</description>
+  </persona>
+  <rules>
+    <rule priority="high">Sempre use Records para DTOs imutáveis.</rule>
+    <rule priority="medium">Priorize injeção de dependência.</rule>
+    <rule>Use JUnit 5 para testes.</rule>
+  </rules>
+  <skills>
+    <skill name="gerar-testes">
+      <description>Gera testes automatizados.</description>
+      <examples>
+        <example>Crie testes para controller.</example>
+      </examples>
+    </skill>
+  </skills>
+  <workflow>
+    <step order="1">Analise requisitos.</step>
+    <step order="2">Gere código com testes.</step>
+  </workflow>
+</instructions>
+```
+
+## Validação com XSD
+
+Para validar, crie um arquivo .xsd separado (ex.: instructions.xsd) e referencie no XML.

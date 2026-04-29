@@ -1,0 +1,39 @@
+# Skills em YAML
+
+Este arquivo demonstra como definir skills usando YAML, um formato legível e conciso.
+
+## Por que YAML?
+
+- **Legibilidade Humana**: Sintaxe simples com indentação, mais fácil de editar que JSON.
+- **Comentários**: Suporta # para anotações, útil para documentar skills.
+- **Flexibilidade**: Converte facilmente para JSON; usado em configs como GitHub Actions.
+- **Estrutura Aninhada**: Ideal para skills com subpropriedades sem verbosidade excessiva.
+
+## Quando Usar?
+
+Bom para skills que precisam de manutenção manual frequente. Melhor que JSON para leitura rápida; melhor que .md para estrutura fixa.
+
+## Exemplo de Skills
+
+```yaml
+skills:
+  - name: "refatorar-angular-signals"
+    description: "Refatora componentes Angular para usar Signals (Angular 17+)."
+    tecnologia: "Angular"
+    exemplos:
+      - "Migre este componente para Signals."
+      - "Otimize reatividade com signals."
+    regras:
+      - "Use standalone components."
+      - "Evite change detection manual."
+
+  - name: "criar-endpoints-fastapi"
+    description: "Cria endpoints REST com FastAPI e Pydantic."
+    tecnologia: "Python FastAPI"
+    exemplos:
+      - "Gere endpoint CRUD para modelo."
+      - "Adicione validação automática."
+    regras:
+      - "Use type hints obrigatoriamente."
+      - "Siga PEP 8 para código."
+```

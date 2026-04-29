@@ -1,0 +1,49 @@
+# Skills em JSON
+
+Este arquivo demonstra como definir skills usando JSON, um formato estruturado e leve.
+
+## Por que JSON?
+
+- **Estrutura Clara**: Objetos e arrays facilitam organização hierárquica de skills.
+- **Parsing Fácil**: Compatível com linguagens de programação e ferramentas (ex.: VS Code valida JSON).
+- **Reutilização**: Pode ser importado em scripts ou APIs para automação.
+- **Validação**: Use JSON Schema para garantir estrutura correta.
+
+## Quando Usar?
+
+Ideal para skills complexas com múltiplos exemplos ou metadados. Melhor que .md para integração com ferramentas automatizadas.
+
+## Exemplo de Skills
+
+```json
+{
+  "skills": [
+    {
+      "name": "gerar-testes-junit",
+      "description": "Gera testes automatizados usando JUnit 5 para classes Java.",
+      "tecnologia": "Java Spring",
+      "exemplos": [
+        "Crie testes para este controller REST.",
+        "Gere mocks para dependências externas."
+      ],
+      "regras": [
+        "Use @SpringBootTest para integração.",
+        "Priorize testes unitários sobre integração."
+      ]
+    },
+    {
+      "name": "validar-dados-zod",
+      "description": "Valida schemas de dados usando Zod em JavaScript.",
+      "tecnologia": "Node.js",
+      "exemplos": [
+        "Valide entrada de API com Zod.",
+        "Crie schemas para objetos complexos."
+      ],
+      "regras": [
+        "Use async/await para validações.",
+        "Forneça mensagens de erro claras."
+      ]
+    }
+  ]
+}
+```

@@ -60,7 +60,7 @@ Para informações mais aprofundadas, consulte os seguintes guias:
 
 Explore os templates de instruções para agentes especializados em diferentes tecnologias. Estes templates servem como base para criar agentes personalizados no GitHub Copilot, focando em melhores práticas de arquitetura e Clean Code:
 
-- [Java Spring Boot](templates/java-spring/agent-instructions.md): Focado em Spring Boot 3 com Records, Injeção de Dependência e testes JUnit 5.
+- [Java](templates/java/agent-instructions.md): Focado em arquitetura Java com SOLID e DDD, mantendo framework como detalhe técnico.
 - [JavaScript Node](templates/javascript-node/agent-instructions.md): Prioriza código assíncrono (async/await) e validação com Zod.
 - [Python FastAPI](templates/python-fastapi/agent-instructions.md): Enfatiza Type Hinting, Pydantic e PEP 8.
 - [Angular](templates/angular/agent-instructions.md): Especializado em Angular 17+ com Signals, Standalone Components e RXJS.

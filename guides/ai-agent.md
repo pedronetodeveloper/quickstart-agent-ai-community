@@ -38,7 +38,7 @@ O GitHub Copilot é uma ferramenta poderosa projetada para auxiliar desenvolvedo
 
 Para exemplos práticos de agentes especializados, consulte os templates disponíveis no repositório:
 
-- [Java Spring Boot](../templates/java-spring/agent-instructions.md): Agente focado em desenvolvimento com Spring Boot 3.
+- [Java](../templates/java/agent-instructions.md): Agente focado em arquitetura Java e boas práticas de design.
 - [JavaScript Node](../templates/javascript-node/agent-instructions.md): Agente para Node.js com ESM e validação Zod.
 - [Python FastAPI](../templates/python-fastapi/agent-instructions.md): Agente para APIs modernas com FastAPI.
 - [Angular](../templates/angular/agent-instructions.md): Agente para refatoração de componentes Angular.

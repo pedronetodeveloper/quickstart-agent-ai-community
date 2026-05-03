@@ -26,7 +26,7 @@ Este guia fornece instruções passo a passo para começar a usar agentes de IA 
 ## Primeiro Uso
 
 Use um template existente para testar:
-- Copie um template de `templates/` (ex.: `python-fastapi/agent-instructions.md`)
+- Copie um template de `templates/` (ex.: `python/README.md` para escolher um starter pack, ou `python-fastapi/agent-instructions.md` para FastAPI direto)
 - Adapte para seu projeto
 - Teste com um prompt simples no chat do Copilot
 

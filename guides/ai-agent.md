@@ -40,7 +40,8 @@ Para exemplos práticos de agentes especializados, consulte os templates dispon�
 
 - [Java](../templates/java/agent-instructions.md): Agente focado em arquitetura Java e boas práticas de design.
 - [JavaScript Node](../templates/javascript-node/agent-instructions.md): Agente para Node.js com ESM e validação Zod.
-- [Python FastAPI](../templates/python-fastapi/agent-instructions.md): Agente para APIs modernas com FastAPI.
+- [Python — starter packs](../templates/python/README.md): Arquiteturas comuns (API em camadas, Django, pacotes por domínio, workers).
+- [Python FastAPI](../templates/python-fastapi/agent-instructions.md): Atalho para APIs com FastAPI, Pydantic e PEP 8.
 - [Angular](../templates/angular/agent-instructions.md): Agente para refatoração de componentes Angular.
 
 Estes templates demonstram como configurar agentes personalizados para tecnologias específicas, seguindo melhores práticas.

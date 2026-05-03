@@ -62,7 +62,7 @@ Explore os templates de instruções para agentes especializados em diferentes t
 
 - [Java](templates/java/agent-instructions.md): Focado em arquitetura Java com SOLID e DDD, mantendo framework como detalhe técnico.
 - [JavaScript Node](templates/javascript-node/agent-instructions.md): Prioriza código assíncrono (async/await) e validação com Zod.
-- [Python FastAPI](templates/python-fastapi/agent-instructions.md): Enfatiza Type Hinting, Pydantic e PEP 8.
+- [Python — índice e starter packs](templates/python/README.md): API em camadas, Django por apps, pacotes por domínio e workers com filas.
 - [Angular](templates/angular/agent-instructions.md): Especializado em Angular 17+ com Signals, Standalone Components e RXJS.
 
 ### Formatos Alternativos

@@ -64,7 +64,16 @@ Explore os templates de instruções para agentes especializados em diferentes t
 - [JavaScript Node — índice e starter packs](templates/javascript-node/README.md): APIs em camadas, pacotes por domínio, serverless e workers.
 - [Python — índice e starter packs](templates/python/README.md): API em camadas, Django por apps, pacotes por domínio e workers com filas.
 - [Front-end — índice e starter packs](templates/frontend/README.md): Microfrontends, SPA component-driven, design systems e Jamstack.
+- [Project-aware Agent](templates/project-aware-agent/README.md): Agente que analisa o projeto anexado e gera skills específicas para otimizar uso de IA.
 - [Angular](templates/angular/agent-instructions.md): Especializado em Angular 17+ com Signals, Standalone Components e RXJS.
+
+## Exemplos Práticos
+
+Veja também os exemplos práticos em [examples/README.md](examples/README.md), com agentes já prontos para:
+- `examples/python-fastapi/`
+- `examples/java-spring-boot/`
+- `examples/node-api/`
+- `examples/frontend-react/`
 
 ### Formatos Alternativos
 

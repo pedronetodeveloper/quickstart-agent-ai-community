@@ -1,0 +1,32 @@
+{
+  "skills": [
+    {
+      "name": "refatorar-codigo",
+      "description": "Identificar e aplicar refatorações para melhorar legibilidade, modularidade e manutenção do código.",
+      "categoria": "Refatoração",
+      "exemplos": [
+        "Reescrever funções/métodos longos em partes menores e mais testáveis.",
+        "Extrair lógica de negócios de controllers/handlers para serviços dedicados."
+      ],
+      "regras": [
+        "Mantenha a funcionalidade original e minimize mudanças de comportamento.",
+        "Use padrões de design e boas práticas da linguagem detectada.",
+        "Explique as melhorias propostas antes de gerar o código."
+      ]
+    },
+    {
+      "name": "modularizar-funcoes",
+      "description": "Reorganizar código em módulos/coerência de responsabilidades para reduzir acoplamento.",
+      "categoria": "Refatoração",
+      "exemplos": [
+        "Crie novos módulos para lógica de domínio e input/output.",
+        "Separe validação, transformação e persistência em camadas distintas."
+      ],
+      "regras": [
+        "Use nomes de módulo claros e consistentes.",
+        "Evite duplicação e mantenha dependências unidirecionais.",
+        "Documente brevemente a nova organização."
+      ]
+    }
+  ]
+}

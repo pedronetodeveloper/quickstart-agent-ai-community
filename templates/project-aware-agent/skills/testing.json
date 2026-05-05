@@ -1,0 +1,32 @@
+{
+  "skills": [
+    {
+      "name": "gerar-testes",
+      "description": "Criar ou ampliar suites de testes para aumentar cobertura e confiança no projeto.",
+      "categoria": "Testes",
+      "exemplos": [
+        "Adicione testes unitários para serviços críticos detectados no projeto.",
+        "Crie testes de integração para endpoints de API principais."
+      ],
+      "regras": [
+        "Use a ferramenta de teste padrão do projeto (pytest, JUnit, Vitest, etc.).",
+        "Inclua casos de sucesso e falha relevantes.",
+        "Mantenha testes claros e fáceis de manter."
+      ]
+    },
+    {
+      "name": "validar-cenarios-e-erros",
+      "description": "Escrever testes que validem comportamentos esperados e tratamento de erros.",
+      "categoria": "Testes",
+      "exemplos": [
+        "Crie testes para entradas inválidas e respostas de erro.",
+        "Valide fluxos de autenticação/autorização quando existirem."
+      ],
+      "regras": [
+        "Foque em fluxos críticos do negócio.",
+        "Utilize mocks ou fixtures para dependências externas.",
+        "Explique por que cada teste é importante."
+      ]
+    }
+  ]
+}

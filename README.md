@@ -61,8 +61,9 @@ Para informações mais aprofundadas, consulte os seguintes guias:
 Explore os templates de instruções para agentes especializados em diferentes tecnologias. Estes templates servem como base para criar agentes personalizados no GitHub Copilot, focando em melhores práticas de arquitetura e Clean Code:
 
 - [Java](templates/java/agent-instructions.md): Focado em arquitetura Java com SOLID e DDD, mantendo framework como detalhe técnico.
-- [JavaScript Node](templates/javascript-node/agent-instructions.md): Prioriza código assíncrono (async/await) e validação com Zod.
+- [JavaScript Node — índice e starter packs](templates/javascript-node/README.md): APIs em camadas, pacotes por domínio, serverless e workers.
 - [Python — índice e starter packs](templates/python/README.md): API em camadas, Django por apps, pacotes por domínio e workers com filas.
+- [Front-end — índice e starter packs](templates/frontend/README.md): Microfrontends, SPA component-driven, design systems e Jamstack.
 - [Angular](templates/angular/agent-instructions.md): Especializado em Angular 17+ com Signals, Standalone Components e RXJS.
 
 ### Formatos Alternativos

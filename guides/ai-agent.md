@@ -39,9 +39,12 @@ O GitHub Copilot é uma ferramenta poderosa projetada para auxiliar desenvolvedo
 Para exemplos práticos de agentes especializados, consulte os templates disponíveis no repositório:
 
 - [Java](../templates/java/agent-instructions.md): Agente focado em arquitetura Java e boas práticas de design.
-- [JavaScript Node](../templates/javascript-node/agent-instructions.md): Agente para Node.js com ESM e validação Zod.
+- [JavaScript Node — starter packs](../templates/javascript-node/README.md): APIs em camadas, pacotes por domínio, serverless e workers.
+- [JavaScript Node — base](../templates/javascript-node/agent-instructions.md): Atalho rápido para agente Node.js com ESM e Zod.
 - [Python — starter packs](../templates/python/README.md): Arquiteturas comuns (API em camadas, Django, pacotes por domínio, workers).
 - [Python FastAPI](../templates/python-fastapi/agent-instructions.md): Atalho para APIs com FastAPI, Pydantic e PEP 8.
+- [Front-end — starter packs](../templates/frontend/README.md): Microfrontends, SPA component-driven, design systems e Jamstack.
+- [Front-end — base](../templates/frontend/agent-instructions.md): Atalho rápido para agente front-end component-driven.
 - [Angular](../templates/angular/agent-instructions.md): Agente para refatoração de componentes Angular.
 
 Estes templates demonstram como configurar agentes personalizados para tecnologias específicas, seguindo melhores práticas.

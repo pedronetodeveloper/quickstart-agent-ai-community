@@ -1,0 +1,32 @@
+{
+  "skills": [
+    {
+      "name": "criar-api-node",
+      "description": "Criar endpoints Node.js ESM com validação Zod e separação de responsabilidades.",
+      "tecnologia": "Node.js",
+      "exemplos": [
+        "Implemente um endpoint POST /users com validação de body usando Zod.",
+        "Crie rotas modulares com serviços separados."
+      ],
+      "regras": [
+        "Use async/await e tratar erros com try/catch ou handlers de erro.",
+        "Defina schemas Zod claros.",
+        "Mantenha rotas concisas e delegue lógica para serviços."
+      ]
+    },
+    {
+      "name": "gerar-testes-vitest",
+      "description": "Gerar testes para endpoints Node.js e validação Zod.",
+      "tecnologia": "JavaScript",
+      "exemplos": [
+        "Crie testes unitários para um handler de rota com entrada válida e inválida.",
+        "Adicione testes para validar mensagens de erro de Zod."
+      ],
+      "regras": [
+        "Use describe/test e expect.",
+        "Verifique status code e payload de erro.",
+        "Teste também fluxos assíncronos."
+      ]
+    }
+  ]
+}

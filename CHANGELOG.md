@@ -56,4 +56,11 @@ Histórico de mudanças no repositório.
   - Jamstack/SSR/SSG
 - Atualizado `README.md`, `guides/ai-agent.md` e `docs/getting-started.md` para apontar ao novo índice front-end
 
+## [1.0.5] - 2026-05-05
+
+- Adicionado template `templates/project-aware-agent/` para agentes que leem o projeto anexado e geram skills dinâmicas específicas do contexto.
+- Incluídos exemplos de formato de skills em `templates/project-aware-agent/skills/` e documentação explicativa em `templates/project-aware-agent/README.md`.
+- Atualizado `templates/project-aware-agent/agent-instructions.md` para reforçar que o agente deve criar skills específicas do projeto, não usar apenas um conjunto genérico existente.
+- Atualizado `README.md` para referenciar o novo template de agente.
+
 Nota: Este changelog será atualizado com futuras releases.

@@ -1,0 +1,32 @@
+{
+  "skills": [
+    {
+      "name": "documentar-arquitetura",
+      "description": "Gerar ou melhorar documentação de arquitetura e explicações de projeto.",
+      "categoria": "Documentação",
+      "exemplos": [
+        "Crie uma visão geral da arquitetura do projeto e principais componentes.",
+        "Descreva como as partes do sistema se comunicam."
+      ],
+      "regras": [
+        "Use linguagem acessível e objetiva.",
+        "Inclua diagramas conceituais em texto quando útil.",
+        "Documente decisões importantes e trade-offs."
+      ]
+    },
+    {
+      "name": "atualizar-readme",
+      "description": "Melhorar o README com instruções de uso, arquitetura e execução do projeto.",
+      "categoria": "Documentação",
+      "exemplos": [
+        "Adicione seções de instalação, execução e contribuição ao README.",
+        "Explique o propósito das principais pastas e comandos disponíveis."
+      ],
+      "regras": [
+        "Foque em clareza para desenvolvedores novos no projeto.",
+        "Mantenha o README enxuto, mas completo o suficiente.",
+        "Inclua exemplos de comandos de execução."
+      ]
+    }
+  ]
+}

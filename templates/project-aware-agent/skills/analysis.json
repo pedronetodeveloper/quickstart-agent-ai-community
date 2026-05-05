@@ -1,0 +1,33 @@
+{
+  "skills": [
+    {
+      "name": "analisar-projeto-contexto",
+      "description": "Analisar o projeto inteiro anexado ao contexto e identificar stack, arquitetura e dependências principais.
+",
+      "categoria": "Análise",
+      "exemplos": [
+        "Leia o repositório e identifique se é um projeto Python, Node.js, Java ou front-end.",
+        "Liste as dependências, frameworks e padrões arquiteturais usados no projeto."
+      ],
+      "regras": [
+        "Comece analisando arquivos de configuração e manifestos.",
+        "Identifique claramente as tecnologias principais e subprojetos.",
+        "Priorize áreas com maior impacto em manutenção e produtividade." 
+      ]
+    },
+    {
+      "name": "mapear-estruturas-e-modulos",
+      "description": "Mapear a estrutura de pastas, módulos e boundaries do projeto para entender dependências internas.",
+      "categoria": "Análise",
+      "exemplos": [
+        "Encontre os principais pacotes, módulos ou domains do sistema.",
+        "Descreva a separação entre camadas, serviços e interfaces."
+      ],
+      "regras": [
+        "Sempre explique como o código está organizado.",
+        "Identifique pontos onde a arquitetura está bem definida ou confusa.",
+        "Relacione estruturas ao fluxo de desenvolvimento."
+      ]
+    }
+  ]
+}

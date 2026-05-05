@@ -1,0 +1,32 @@
+{
+  "skills": [
+    {
+      "name": "criar-controller-springboot",
+      "description": "Criar controller REST no Spring Boot usando DTOs e serviço desacoplado.",
+      "tecnologia": "Java Spring Boot",
+      "exemplos": [
+        "Implemente um endpoint GET /customers para listar clientes.",
+        "Crie um POST /orders que usa um service para processar o pedido."
+      ],
+      "regras": [
+        "Separe controller e service.",
+        "Use DTOs para request e response.",
+        "Mantenha regras de negócio fora do controller."
+      ]
+    },
+    {
+      "name": "gerar-testes-junit",
+      "description": "Gerar testes JUnit 5 para serviços e controllers Spring Boot.",
+      "tecnologia": "Java",
+      "exemplos": [
+        "Crie testes unitários para um service que calcula valores de pedido.",
+        "Adicione testes de integração para um controller REST."
+      ],
+      "regras": [
+        "Use @ExtendWith(MockitoExtension.class) para mocks.",
+        "Prefira testes de unidade para lógica de negócio.",
+        "Valide comportamentos esperados e casos de erro."
+      ]
+    }
+  ]
+}

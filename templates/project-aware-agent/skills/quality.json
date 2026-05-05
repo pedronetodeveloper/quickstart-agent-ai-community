@@ -1,0 +1,32 @@
+{
+  "skills": [
+    {
+      "name": "otimizar-fluxo-de-desenvolvimento",
+      "description": "Sugerir melhorias em qualidade de código, CI/CD e processos de revisão.",
+      "categoria": "Qualidade",
+      "exemplos": [
+        "Recomende checks de lint e formatação para o projeto.",
+        "Sugira um pipeline de CI para rodar testes e validações automaticamente."
+      ],
+      "regras": [
+        "Use práticas de qualidade compatíveis com a stack do projeto.",
+        "Identifique ferramentas já presentes e aproveite-as.",
+        "Explique como a automação reduz riscos de regressão."
+      ]
+    },
+    {
+      "name": "melhorar-manutenibilidade",
+      "description": "Identificar áreas onde a manutenção pode ser simplificada e o risco reduzido.",
+      "categoria": "Qualidade",
+      "exemplos": [
+        "Detecte código duplicado ou arquitetura frágil.",
+        "Recomende práticas de documentação e testes para módulos críticos."
+      ],
+      "regras": [
+        "Priorize ações de alto retorno e baixo impacto.",
+        "Seja direto ao apontar problemas e soluções.",
+        "Conecte recomendações à realidade do projeto."
+      ]
+    }
+  ]
+}

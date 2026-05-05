@@ -1,0 +1,32 @@
+{
+  "skills": [
+    {
+      "name": "criar-endpoint-fastapi",
+      "description": "Criar endpoint FastAPI com validação Pydantic e tratamento de erros.",
+      "tecnologia": "Python FastAPI",
+      "exemplos": [
+        "Implemente um endpoint POST /items para criar um item com validação de dados.",
+        "Gere documentação OpenAPI automática para o endpoint."
+      ],
+      "regras": [
+        "Use Pydantic para request e response models.",
+        "Implemente endpoint async com async def.",
+        "Trate erros de validação com respostas JSON claras."
+      ]
+    },
+    {
+      "name": "gerar-testes-pytest",
+      "description": "Gerar testes de integração e unidade para endpoints FastAPI.",
+      "tecnologia": "Python",
+      "exemplos": [
+        "Crie testes pytest para POST /items com dados válidos e inválidos.",
+        "Adicione fixtures para criar clientes de teste FastAPI."
+      ],
+      "regras": [
+        "Use TestClient ou AsyncClient do FastAPI.",
+        "Valide respostas e status code.",
+        "Inclua casos de erro de validação."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "skills": [
+    {
+      "name": "criar-componente-react",
+      "description": "Criar componente React acessível e component-driven.",
+      "tecnologia": "React",
+      "exemplos": [
+        "Implemente um formulário de busca com acessibilidade e estado controlado.",
+        "Crie um cartão reutilizável de exibição de produto."
+      ],
+      "regras": [
+        "Use hooks para estado e efeitos.",
+        "Inclua labels e atributos aria quando necessário.",
+        "Separe apresentação e lógica de negócios."
+      ]
+    },
+    {
+      "name": "gerar-testes-react",
+      "description": "Gerar testes com React Testing Library para componentes e interações.",
+      "tecnologia": "React",
+      "exemplos": [
+        "Crie testes para verificar a renderização de um componente e seu comportamento de clique.",
+        "Teste validação de formulário e mensagens de erro."
+      ],
+      "regras": [
+        "Use screen e userEvent para interações.",
+        "Verifique acessibilidade e estados carregando/erro.",
+        "Mantenha testes focados em comportamento do usuário."
+      ]
+    }
+  ]
+}
